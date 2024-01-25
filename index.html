@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- displays site properly based on user's device -->
 
 		<link
 			rel="icon"
@@ -11,7 +10,7 @@
 			sizes="32x32"
 			href="./assets/images/favicon-32x32.png"
 		/>
-
+		<link rel="stylesheet" href="style.css" />
 		<title>Frontend Mentor | Blog preview card</title>
 	</head>
 	<body>
@@ -24,19 +23,24 @@
 							alt="illustration-article"
 						/>
 					</div>
-					<div class="tag"><p>Learning</p></div>
-					<p class="date">Published 21 Dec 2023</p>
-					<h1>HTML & CSS foundations</h1>
-					<h2>
-						These languages are the backbone of every website, defining
-						structure, content, and presentation.
-					</h2>
-					<d class="author-container">
+					<div class="card__body">
+						<div class="card__body__tag"><p>Learning</p></div>
+						<p class="card__body__date">Published 21 Dec 2023</p>
+						<a class="card__body__title" href="#">HTML & CSS foundations</a>
+						<p class="card__body__caption">
+							These languages are the backbone of every website, defining
+							structure, content, and presentation.
+						</p>
+					</div>
+					<div class="card__body__author-container">
 						<div class="img-wrapper avatar">
-							<img src="./assets/images/image-avatar.webp" alt="" />
+							<img
+								src="./assets/images/image-avatar.webp"
+								alt="greg hooper avatar"
+							/>
 						</div>
 						<p>Greg Hooper</p>
-					</d>
+					</div>
 				</div>
 			</main>
 			<div class="attribution">
